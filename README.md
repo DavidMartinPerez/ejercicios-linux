@@ -1,6 +1,6 @@
 # Ejercicios Linux
 
-#Ejercicios. Capitulo 4
+##Capitulo 4
 
 
 **1) Show all the jpg pictures in the current directory.**
