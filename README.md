@@ -6,14 +6,14 @@
 **1) Show all the jpg pictures in the current directory.**
 
 
-2) Display all the files in the directory /usr/bin starting with letter “j”.
+**2) Display all the files in the directory /usr/bin starting with letter “j”.**
 
 
-3) Show all the files in the directory /usr/bin starting with the letter “k”, with an “a” 
-in the 3 rd place.
+**3) Show all the files in the directory /usr/bin starting with the letter “k”, with an “a” 
+in the 3 rd place.**
 
 
-4) Show all the files in the directory /bin ending with “n”.
+**4) Show all the files in the directory /bin ending with “n”.**
 
 
 5) Display all the files in the directory /etc and all the files in every subdirectory
