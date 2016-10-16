@@ -3,7 +3,7 @@
 ##Capitulo 4
 
 
-**1) Show all the jpg pictures in the current directory.**
+###1) Show all the jpg pictures in the current directory.###
 
 ls *.jpg
 
