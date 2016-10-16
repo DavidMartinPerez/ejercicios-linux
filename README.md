@@ -2,7 +2,7 @@
 
 #Ejercicios. Capitulo 4
 
-```console
+
 **1) Show all the jpg pictures in the current directory.**
 
 
@@ -46,4 +46,4 @@ confirmation.**
 
 **11)Move the file films.txt, which is in multimedia/video, to the directory above,
 at the same time renaming the file to my_films.txt.**
-```
+
