@@ -4,13 +4,13 @@
 
 
 **1) Show all the jpg pictures in the current directory.**
-
+ls *.jpg
 
 **2) Display all the files in the directory /usr/bin starting with letter “j”.**
 
 
 **3) Show all the files in the directory /usr/bin starting with the letter “k”, with an “a” 
-in the 3 rd place.**
+in the 3rd place.**
 
 
 **4) Show all the files in the directory /bin ending with “n”.**
