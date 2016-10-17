@@ -1,6 +1,6 @@
 # Ejercicios Linux
 
-##Capitulo 4
+##Capitulo 3
 
 
 ###1) Show all the jpg pictures in the current directory.###
@@ -13,13 +13,13 @@ ls *.jpg
 ls /usr/bin/j*
 ```
 ###3) Show all the files in the directory /usr/bin starting with the letter “k”, with an “a” 
-in the 3rd place.###
+##in the 3rd place.
 ```console 
-ls /usr/bin k?a*
+ls /usr/bin/k?a*
 ```
 ###4) Show all the files in the directory /bin ending with “n”.###
 ```console 
-ls /bin *n
+ls /bin/*n
 ```
 ###5) Display all the files in the directory /etc and all the files in every subdirectory
 ###recursively.
@@ -46,10 +46,7 @@ rm test2
 ```console 
 Si se puede crear pero no es aconsejable, por que seria con muchos \ y muy liante a la hora de acceder a el.
 ```
-###9) Create a directory named multimedia_test and copy all the content from the
-###directory multimedia into it. Then, create two files in multimedia/video/, one
-###named films.txt and another named actors.txt. Edit the file films.txt and write
-###the title of your favourite movie. Then, create another file in multimedia_test/video/,
+###9) Create a directory named multimedia_test and copy all the content from the directory multimedia into it. Then, create two files in multimedia/video/, one named films.txt and another named actors.txt. Edit the file films.txt and write the title of your favourite movie. Then, create another file in multimedia_test/video/,
 ###also named films.txt. Edit this file and now write the titles of your five favourite movies.
 ###Copy of all the content of multimedia into multimedia_test ensuring that
 ###only most recently modified versions of files remain.To check that
