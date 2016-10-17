@@ -7,7 +7,7 @@
 
 ls *.jpg
 
-###2) Display all the files in the directory /usr/bin starting with letter “j”.###
+```console 2) Display all the files in the directory /usr/bin starting with letter “j”.```
 
 ls /usr/bin/j*
 
@@ -50,11 +50,11 @@ Si se puede crear pero no es aconsejable, por que seria con muchos \ y muy liant
 ###directory multimedia into it. Then, create two files in multimedia/video/, one
 ###named films.txt and another named actors.txt. Edit the file films.txt and write
 ###the title of your favourite movie. Then, create another file in multimedia_test/video/,
-###also named films.txt. Edit this file and now write the titles of your five favourite movies.
-###Copy of all the content of multimedia into multimedia_test ensuring that
-###only most recently modified versions of files remain.To check that
-###everything is ok, check if multimedia_test/video contains the empty file
-###actors.txt and the file films.txt###
+also named films.txt. Edit this file and now write the titles of your five favourite movies.
+Copy of all the content of multimedia into multimedia_test ensuring that
+only most recently modified versions of files remain.To check that
+everything is ok, check if multimedia_test/video contains the empty file
+actors.txt and the file films.txt###
 
 mkdir multimedia_test | cp /multimedia /multimedia_test | touch /multimedia/video/films.txt /multimedia/video/actors.txt | 
 
