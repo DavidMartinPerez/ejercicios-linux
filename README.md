@@ -62,3 +62,21 @@ rmdir -i multimedia/pictures/others
 mv films.txt multimedia/video
 mv films.txt my_films.txt
 ```
+##Capitulo 4
+
+###1) Complete the following table:
+```console
++---+---------+
+|654|rw-r-xr--|
++---+---------+
+|766|rwxrw-rw-|
++---+---------+
+|777|rwxrwxrwx|
++---+---------+
+|520|r-x-w----|
++---+---------+
+|764|rwxrw-r--|
++---+---------+
+|660|r--r-----|
++---+---+
+```
