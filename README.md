@@ -78,5 +78,20 @@ mv films.txt my_films.txt
 |764|rwxrw-r--|
 +---+---------+
 |660|r--r-----|
-+---+---+
++---+---------+
 ```
+##In the following exercises, you should use the required Linux commands to perform the operations described.
+###2) Create the groups office1 and office2.
+```console
+addgroup office1
+addgroup office2
+```
+###3) Create the users gearoid and paul. These users must belong only to the group office1.
+```console
+adduser gearoid -g office1
+adduser paul -g office1
+```
+
+
+
+
