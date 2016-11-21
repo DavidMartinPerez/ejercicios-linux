@@ -66,19 +66,13 @@ mv films.txt my_films.txt
 
 ###1) Complete the following table:
 ```console
-+---+---------+
-|654|rw-r-xr--|
-+---+---------+
-|766|rwxrw-rw-|
-+---+---------+
-|777|rwxrwxrwx|
-+---+---------+
-|520|r-x-w----|
-+---+---------+
-|764|rwxrw-r--|
-+---+---------+
-|660|r--r-----|
-+---+---------+
+| 654 | rw-r-xr-- |
+|:-----:|:-----------:|
+| 766 | rwxrw-rw- |
+| 777 | rwxrwxrwx |
+| 520 | r-x-w---- |
+| 764 | rwxrw-r-- |
+| 440 | r--r----- |
 ```
 ##In the following exercises, you should use the required Linux commands to perform the operations described.
 ###2) Create the groups office1 and office2.
