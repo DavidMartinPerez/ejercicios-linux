@@ -88,10 +88,43 @@ addgroup office2
 ```
 ###3) Create the users gearoid and paul. These users must belong only to the group office1.
 ```console
-adduser gearoid -g office1
-adduser paul -g office1
+adduser gearoid -ingroup office1
+adduser paul -ingroup office1
 ```
-
-
-
-
+###4) Create the users anna and emma. These users must belong only to the group office2.
+```console
+adduser anna --ingroup office2
+adduser emma --ingroup office2
+```
+###5) As user gearoid, create a file named topsecret.txt in his home directory. Only this user must have access to this file, both for reading and writing.
+```console
+ su gearoid
+ cd 8
+ touch topsecret.txt
+ chmod 600 topsecret.txt
+```
+###6) Create another file named sales.txt, also as user gearoid,. All users in the same group as gearoid must have access to this file, both for reading and writing. The permissions for owner and the rest of users must remain as default. Check that you can modify the file if you access it as user paul.
+```console
+touch sales.txt
+chmod g+rw sales.txt
+```
+###7) As user anna, create a file named employees.txt. Any user must have access to read its content and any user in the same group must have access to read or write to it.
+```console
+$ su ana
+ cd
+ touch employees.txt
+ chmod 664 employees.txt
+```
+###8) Create the user student (if it is not yet created). Copy the file employees.txt to the home directory of user student . Change the owner and the group of this file to student.
+```console
+adduser student
+cd /home/anna
+sudo cp employees.txt /home/student
+cd /home/student
+sudo chwon student employees.txt
+sudo chgrp office2 employees.txt
+```
+###17) Supose a user has read access to a file, but this file is in a directory for which the user has no read access. Could this user read this file? Try it.
+```console
+No, por que no te dejarian entrar en la carpeta.
+```
