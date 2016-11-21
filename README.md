@@ -110,7 +110,7 @@ chmod g+rw sales.txt
 ```
 ###7) As user anna, create a file named employees.txt. Any user must have access to read its content and any user in the same group must have access to read or write to it.
 ```console
-$ su ana
+ su ana
  cd
  touch employees.txt
  chmod 664 employees.txt
